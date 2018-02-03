@@ -1,0 +1,121 @@
+/***********************************************************************
+      
+	  File Name	            :     DoctorDetailsDAO.java
+	  Principal Author      	: GR_TH3_03
+	  Subsystem Name        :
+	  Module Name           	: Display doctor details
+	  Date of First Release 	: 18-05-2016
+	  Author			:          GR_TH3_03
+	  Description           	:  class fetching doctor details from database
+
+
+	  Change History
+
+	  Version      		:  1.0
+	  Date(DD/MM/YYYY) 	:  18-05-2016
+	  Modified by		:  GR_TH3_03
+	  Description of change : 
+
+ ***********************************************************************/
+package com.aricent.daofiles;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.aricent.configuration.ConnectionManager;
+import com.aricent.daointerfaces.DoctorDetailsInterface;
+import com.aricent.pojofiles.AddDoctorBean;
+
+/**
+ * fetching doctor details from database
+ * 
+ * @see DoctorDetailsDAO
+ * @see DoctorDetailsDAO#displayDoctor()
+ * @version 1.0
+ * @author GR_TH3_03
+ */
+public class DoctorDetailsDAO implements DoctorDetailsInterface {
+	/**
+	 * fetches doctor details from database
+	 * 
+	 * @see displaydoctor()
+	 * @param int id
+	 * @exception SQLException
+	 * @see DoctorDetailsDAO
+	 * @version initial version
+	 * @author GR_TH3_03
+	 */
+	public AddDoctorBean displayDoctor(int id) {
+
+		PreparedStatement preparedStatement = null;
+		ResultSet result = null;
+		Connection connection = null;
+
+		AddDoctorBean doctor = new AddDoctorBean();
+
+		try {// start try
+				// establishing connection
+			connection = ConnectionManager.getConnection();
+			// writing query to fetch doctor details
+			preparedStatement = connection
+					.prepareStatement("Select * from doctor_profile where doctor_id = ?");
+			preparedStatement.setInt(1, id);
+			// executing query
+			result = preparedStatement.executeQuery();
+			result.next();
+
+			String name = result.getString(2);
+
+			long phone = result.getLong(3);
+			String address = result.getString(4);
+			String qualification = result.getString(5);
+			String timings = result.getString(6);
+			String specialization = result.getString(7);
+			String image = result.getString(8);
+			doctor.setId(id);
+			doctor.setName(name);
+			doctor.setContactNumber(phone);
+			doctor.setAddress(address);
+			doctor.setQualification(qualification);
+			doctor.setTimingToMeet(timings);
+			doctor.setSpecialization(specialization);
+			doctor.setImage(image);
+
+		}// end try
+		catch (Exception ex) {
+
+			ex.printStackTrace();
+		}
+
+		finally {
+			if (result != null) {
+				try {
+					result.close();
+				} catch (Exception e) {
+				}
+				result = null;
+			}
+
+			if (preparedStatement != null) {
+				try {
+					preparedStatement.close();
+				} catch (Exception e) {
+				}
+				preparedStatement = null;
+			}
+
+			if (connection != null) {
+				try {
+					connection.close();
+				} catch (Exception e) {
+				}
+
+				connection = null;
+			}
+		}
+		return doctor;
+	}
+
+}

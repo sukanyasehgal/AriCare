@@ -1,0 +1,150 @@
+2016-05-27 15:35:09 INFO  LoginServlet:66 - login success
+2016-05-27 15:35:09 INFO  LoginServlet:76 - redirected to patientloggedin
+2016-05-30 16:27:38 ERROR Login:106 - pojoFiles/LoginBean
+2016-05-30 16:31:49 INFO  DisplayDoctor:44 - Doctor list is successfully fetched
+2016-05-30 16:32:02 INFO  Login:66 - login success
+2016-05-30 16:32:02 INFO  Login:87 - redirected to admin
+2016-05-30 16:34:21 INFO  AddDoctor:79 - add doctor module started
+2016-05-30 16:34:21 INFO  AddDoctor:106 - new doctor has been added
+2016-05-30 16:36:15 INFO  Login:66 - login success
+2016-05-30 16:36:15 INFO  Login:87 - redirected to admin
+2016-05-30 16:36:57 INFO  AddDoctor:79 - add doctor module started
+2016-05-30 16:36:57 INFO  AddDoctor:106 - new doctor has been added
+2016-05-30 16:38:05 INFO  AddDoctor:79 - add doctor module started
+2016-05-30 16:38:05 INFO  AddDoctor:106 - new doctor has been added
+2016-05-30 16:39:21 INFO  AddDoctor:79 - add doctor module started
+2016-05-30 16:39:21 INFO  AddDoctor:106 - new doctor has been added
+2016-05-30 16:40:26 INFO  AddDoctor:79 - add doctor module started
+2016-05-30 16:40:26 INFO  AddDoctor:106 - new doctor has been added
+2016-05-30 16:41:26 INFO  AddDoctor:79 - add doctor module started
+2016-05-30 16:41:26 INFO  AddDoctor:106 - new doctor has been added
+2016-05-30 16:43:12 INFO  UpdatePillDetails:61 - pills are updated successfully
+2016-05-30 16:44:13 INFO  UpdatePillDetails:61 - pills are updated successfully
+2016-05-30 16:45:09 INFO  UpdatePillDetails:61 - pills are updated successfully
+2016-05-30 16:46:05 INFO  UpdatePillDetails:61 - pills are updated successfully
+2016-05-30 16:47:43 INFO  UpdatePillDetails:61 - pills are updated successfully
+2016-05-30 16:48:50 INFO  UpdatePillDetails:61 - pills are updated successfully
+2016-05-30 16:49:33 INFO  Login:66 - login success
+2016-05-30 16:49:33 INFO  Login:76 - redirected to patientloggedin
+2016-05-30 16:49:36 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:36 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:36 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:36 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:36 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:36 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:49 INFO  BookAppointment:53 - appointment module starts
+2016-05-30 16:49:49 INFO  BookAppointment:86 - doctor is available
+2016-05-30 16:49:49 INFO  BookAppointment:91 - time slot is available and appointment is booked
+2016-05-30 16:49:49 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:49 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:49 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:49 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:49 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:49 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:56 INFO  BookAppointment:53 - appointment module starts
+2016-05-30 16:49:56 INFO  BookAppointment:86 - doctor is available
+2016-05-30 16:49:56 INFO  BookAppointment:100 - time slot not available
+2016-05-30 16:49:56 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:56 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:56 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:56 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:56 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:49:56 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:24 INFO  Login:66 - login success
+2016-05-30 16:50:24 INFO  Login:76 - redirected to patientloggedin
+2016-05-30 16:50:25 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:25 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:25 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:25 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:25 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:25 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:34 INFO  BookAppointment:53 - appointment module starts
+2016-05-30 16:50:34 INFO  BookAppointment:86 - doctor is available
+2016-05-30 16:50:34 INFO  BookAppointment:91 - time slot is available and appointment is booked
+2016-05-30 16:50:34 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:34 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:34 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:34 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:34 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:34 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:51 INFO  Login:66 - login success
+2016-05-30 16:50:51 INFO  Login:76 - redirected to patientloggedin
+2016-05-30 16:50:53 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:53 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:53 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:53 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:53 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:50:53 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:02 INFO  BookAppointment:53 - appointment module starts
+2016-05-30 16:51:02 INFO  BookAppointment:86 - doctor is available
+2016-05-30 16:51:02 INFO  BookAppointment:91 - time slot is available and appointment is booked
+2016-05-30 16:51:02 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:02 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:02 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:02 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:02 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:02 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:27 INFO  Login:66 - login success
+2016-05-30 16:51:27 INFO  Login:76 - redirected to patientloggedin
+2016-05-30 16:51:28 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:28 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:28 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:28 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:28 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:28 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:49 INFO  BookAppointment:53 - appointment module starts
+2016-05-30 16:51:49 INFO  BookAppointment:86 - doctor is available
+2016-05-30 16:51:49 INFO  BookAppointment:91 - time slot is available and appointment is booked
+2016-05-30 16:51:49 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:49 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:49 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:49 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:49 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:51:49 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:10 INFO  Login:66 - login success
+2016-05-30 16:52:10 INFO  Login:76 - redirected to patientloggedin
+2016-05-30 16:52:13 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:13 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:13 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:13 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:13 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:13 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:25 INFO  BookAppointment:53 - appointment module starts
+2016-05-30 16:52:25 INFO  BookAppointment:86 - doctor is available
+2016-05-30 16:52:25 INFO  BookAppointment:91 - time slot is available and appointment is booked
+2016-05-30 16:52:25 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:25 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:25 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:25 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:25 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:25 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:33 INFO  BookAppointment:53 - appointment module starts
+2016-05-30 16:52:33 INFO  BookAppointment:86 - doctor is available
+2016-05-30 16:52:33 INFO  BookAppointment:91 - time slot is available and appointment is booked
+2016-05-30 16:52:33 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:33 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:33 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:33 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:33 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:33 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:38 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:38 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:38 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:38 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:38 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:38 INFO  DisplayDoctorsDAO:33 - doctors are fetched from database successfully
+2016-05-30 16:52:38 INFO  DisplayDoctor:44 - Doctor list is successfully fetched
+2016-05-30 16:52:43 INFO  DoctorsBySpecialization:46 - doctor list according to specialization is fetched successfully
+2016-05-30 16:52:45 INFO  DoctorsBySpecialization:46 - doctor list according to specialization is fetched successfully
+2016-05-31 13:25:38 INFO  Login:100 - login success
+2016-05-31 13:25:38 INFO  Login:127 - redirected to admin
+2016-05-31 13:26:30 INFO  AddDoctor:79 - add doctor module started
+2016-05-31 13:26:30 INFO  AddDoctor:106 - new doctor has been added
+2016-05-31 13:28:19 INFO  Login:100 - login success
+2016-05-31 13:28:19 INFO  Login:127 - redirected to admin
+2016-05-31 13:28:40 INFO  AddDoctor:79 - add doctor module started
+2016-05-31 13:28:40 INFO  AddDoctor:106 - new doctor has been added
+2016-05-31 13:52:33 INFO  Login:100 - login success
+2016-05-31 13:52:33 INFO  Login:113 - redirected to patientloggedin
+2016-05-31 13:52:36 INFO  DisplayPillDAO:97 - pill details are fetched from database successfully
+2016-05-31 13:52:36 INFO  DisplayPillDAO:97 - pill details are fetched from database successfully
